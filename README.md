@@ -1,4 +1,4 @@
-# DiscordTokenLogger
+# zJackk's Discord Token Logger
 Fast and efficient script to log into discord tokens.
 # Requirements
   • Default Browser Set To Google Chrome
