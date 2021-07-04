@@ -8,6 +8,6 @@ Fast and efficient script to log into discord tokens.
   • A Discord Token
   
 # How to Download
-
+![HowToDownload](https://media.giphy.com/media/kg9WkOuB1ATph9s1fj/giphy.gif)
   
  
