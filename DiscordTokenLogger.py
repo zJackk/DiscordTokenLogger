@@ -1,6 +1,6 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-import os, ctypes, time
+import os, ctypes, pyfiglet
 ctypes.windll.kernel32.SetConsoleTitleW("Token Logger")
 driver = webdriver.Chrome(ChromeDriverManager().install())
 cmd = 'mode 60,15'
@@ -9,15 +9,7 @@ def cls():
     os.system("cls" if os.name == "nt" else "clear")   
 def start():
     cls();   
-    print(
-    '''
-     _____ _____ _   __ _____ _   _  _     _____ _____ 
-    |_   _|  _  | | / /|  ___| \ | || |   |  _  |  __ |
-      | | | | | | |/ / | |__ |  \| || |   | | | | |  \/
-      | | | | | |    \ |  __|| . ` || |   | | | | | __ 
-      | | \ \_/ / |\  \| |___| |\  || |___\ \_/ / |_\ |
-      \_/  \___/\_| \_/\____/\_| \_/\_____/\___/ \____/
-    '''
+    print(pyfiglet.figlet_format('TKN LOG')
     )
     atoken = input("Token: ")
     cls()
